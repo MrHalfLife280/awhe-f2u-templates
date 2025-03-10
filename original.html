@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<head>
+<meta charset="utf-8" />
+
+<!--
+
+    /// "Original" template made by awhe @ https://awhe.neocities.org/
+
+    /// NOTE: Feel free to delete the above credits included in the code. I do not require credit, and I encourage copying from me as much as you'd like. As always: The internet is made for sharing, and so I'm happy to be able to share this with you!
+
+    /// I was inspired to post this "template" due to a friend who was unsure about coding but wanted to make a website, and who also enjoyed the look of my current (10th Jun 2023) index page, so I became resolved to clean the code up and annotate it for further help! I'm not assuming that this code is "good" by any means, but it serves me well, and I hope that you can use it well too! Edit it, change it, destroy it to your hearts content.
+
+    /// I'm bad at spelling. If you see any spelling errors, no you don't! (I'm sorry, even after checking, I still usually miss something.)
+
+    ==============================================================
+
+                    -USEFUL INFO-
+
+    // margin: refers to the space AROUND an element.
+    // padding: refers to the space INSIDE an element.
+    // color: refers to TEXT COLOR.
+    // background: refers to the BACKGROUND COLOR of an element.
+    // favicon: refers to the tiny image that shows up on your website tab at the top.
+    // body: refers to the main structure of the site. think of the plain white screen before adding all your code, that's the body. 
+
+    // https://www.w3schools.com/ (This site has all the help you need if you require more assistance.)
+    // https://codepen.io/ (This site allows live previews of your code, which can be helpful when you're changing parts and still learning.)
+    // https://awhe.neocities.org/links (Shameless self plug, but I've included many many links here regarding HTML (among other things!) that may prove useful.)
+    // https://blog.hubspot.com/website/web-safe-html-css-fonts (Displays "web safe fonts" which are fonts that'll adapt to any browser on any device.)
+    // https://www.w3schools.com/tags/ref_colornames.asp (Shows you the names of colors supported by all browsers!)
+
+    ==============================================================
+
+    /// Just a small reminder that:
+        - You can and you should copy from me if you'd like. I don't care. My url is: https://awhe.neocities.org/
+        - Credit is always optional, whatever you feel like.
+        - For a cleaner look, I recommend removing my text additions whenever you feel comfortable to.
+        - I recommend editing on a live preview, so you can see the immediate effects of any changes you make.
+        - Have fun! Add, change, edit, etc, whatever you want! The net is yours.
+
+-->
+
+<title>YOUR SITE TITLE HERE</title> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/"> 
+</head>
+
+<style>
+body{        
+    font-family:ms gothic;
+    font-size:18px;
+}
+
+@font-face {
+    font-family:'synkopy';
+    src:url(Synkopy-Regular.otf);
+}
+    /* https://fontesk.com/synkopy-font/ - that's where i downloaded the above font! */
+    /* IF YOU DON'T WANT TO USE A CUSTOM FONT, FEEL FREE TO DELETE FROM HERE UP TO "@FONT-FACE" AND "P" */
+ 
+p {
+    font-family:'synkopy'; 
+}
+
+#container{
+    width:800px; 
+    margin:0 auto; 
+    text-align:center; 
+}
+
+#main {
+    width:500px; 
+    margin:0 auto; 
+    text-align:justify; 
+    border:3px double black; 
+    max-height:40%; 
+    padding:3px 3px 3px 3px;
+    background: white;
+}
+
+hr {
+    border:0;
+    height:1px;
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+@keyframes wiggle{
+    from{
+    transform:scale(0.98)
+    }
+    50%{
+    transform:scale(1)
+    }
+    to{
+    transform:scale(0.98)
+    }
+}
+
+#textlol {
+    font-size:50px;
+    text-decoration: none; 
+    transition: 0.4s; 
+}
+ 
+#textlol:hover {
+    letter-spacing:5px;
+}
+
+#links{
+    border:1px solid black; 
+    text-align:center;
+    padding:5px;
+    width:500px;
+    margin:0 auto;
+    background: white;
+}
+  
+#links ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+a{
+    color:#AA3039;
+}
+
+a:hover{
+    color:#000000;
+}
+
+</style>
+
+<body>
+
+<div id="container">
+
+    <div id="textlol"><p>PAGE TITLE HERE</p></div>
+
+<div id="links">
+    <ul>
+    <li><img src="/"> <a href="/">LINK 1</a></li>
+    <li><img src="/"> <a href="/">LINK 2</a></li>
+    <li><img src="/"> <a href="/">LINK 3</a></li>
+    <li><img src="/"> <a href="/">LINK 4</a></li>
+    <li><img src="/"> <a href="/">LINK 5</a></li>
+    </ul>
+</div> 
+
+<div id="textlol"><h2 style="text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;color: white;font-size: 25px;animation: wiggle 1s ease-in-out infinite alternate">SUBTITLE GOES HERE</h2>
+</div>
+
+<div id="main">
+
+<table>
+    <tbody>
+        <tr>
+            <td style="padding-right:10px;">
+                <img src="https://hoarding.neocities.org/img/otherpix/med01.gif">
+            </td>
+            <td>
+                PUT SOME SITE INFO HERE !!!! whatever you want honestly, i included a very short snippet of what my site is about, but you can do whatever. maybe... your relevant/important personal info? like your name and age or something... i don't know, this is your site!
+                <br><br>
+                no credit to me necessary!
+                <hr>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+    <p style="text-align:center;font-family: ms gothic;">this is generally where you main main content will go. let your imagination run wild and free :3 the net is yours.<br>
+    <center><a href="https://copyheart.org/manifesto/" target="_blank">♡ copying is an act of love. please copy. ♡</a></center><br>
+</div>
+<br>
+
+<div id="links">
+    <ul>
+        <li><img src="/"> <a href="/">LINK 6</a></li>
+        <li><img src="/"> <a href="/">LINK 7</a></li>
+        <li><img src="/"> <a href="/">LINK 8</a></li>
+        <li><img src="/"> <a href="/">LINK 9</a></li>
+        <li><img src="/"> <a href="/">LINK 10</a></li>
+    </ul>                
+    </div>
+
+<p><center><b>crazy silly time</b></center> 
+</div>
+
+</body>
